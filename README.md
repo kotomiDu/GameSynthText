@@ -2,9 +2,9 @@
 This is an revised version from [SynthText](https://github.com/ankush-me/SynthText/) and [Chinese SynthText](https://github.com/JarveeLee/SynthText_Chinese_version), which is more suitable to generate customized data, e.g. generating multiple data same as the text data in game. It works for both Chinese and English.
 
 ## Modify 
-* The font size, color can be customized 
-* UI interface , which is more easier for fresh user
-* No font augmentation function, e.g. no border, no shadow 
+* Add function to customize the font size, color
+* Add UI interface , which is more easier for fresh user
+* Delete character augmentation, e.g. no border, no shadow 
 
 
 ## Enviroment
@@ -15,7 +15,8 @@ This is an revised version from [SynthText](https://github.com/ankush-me/SynthTe
 
 ## Usage Steps 
 ### Step 1: Prepare background image  
-Click `open data path` button, Choose a folder and confirm,the image number under the chosen folder will be popped up as the picture shows  
+Click `open data path` button, Choose a folder and confirm,the image number under the chosen folder will be popped up as the picture shows   
+ 
 <img src="./data/source/step1.png"  height = "200" />
 
 ### Step 2: Select font style by two ways
