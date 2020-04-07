@@ -1,0 +1,232 @@
+From: lipman@oasys.dt.navy.mil (Robert Lipman)
+Newsgroups: comp.graphics,alt.graphics,comp.graphics.animation
+Subject: CALL FOR PRESENTATIONS: Navy SciViz/VR Seminar
+Message-ID: <32850@oasys.dt.navy.mil>
+Date: 19 Mar 93 20:10:23 GMT
+Article-I.D.: oasys.32850
+Expires: 30 Apr 93 04:00:00 GMT
+Reply-To: lipman@oasys.dt.navy.mil (Robert Lipman)
+Followup-To: comp.graphics
+Distribution: usa
+Organization: Carderock Division, NSWC, Bethesda, MD
+Lines: 65
+                        CALL FOR PRESENTATIONS
+      NAVY SCIENTIFIC VISUALIZATION AND VIRTUAL REALITY SEMINAR
+                        Tuesday, June 22, 1993
+            Carderock Division, Naval Surface Warfare Center
+              (formerly the David Taylor Research Center)
+                          Bethesda, Maryland
+SPONSOR: NESS (Navy Engineering Software System) is sponsoring a 
+one-day Navy Scientific Visualization and Virtual Reality Seminar.  
+The purpose of the seminar is to present and exchange information for
+Navy-related scientific visualization and virtual reality programs, 
+research, developments, and applications.
+PRESENTATIONS: Presentations are solicited on all aspects of 
+Navy-related scientific visualization and virtual reality.  All 
+current work, works-in-progress, and proposed work by Navy 
+organizations will be considered.  Four types of presentations are 
+available.
+     1. Regular presentation: 20-30 minutes in length
+     2. Short presentation: 10 minutes in length
+     3. Video presentation: a stand-alone videotape (author need not 
+        attend the seminar)
+     4. Scientific visualization or virtual reality demonstration (BYOH)
+Accepted presentations will not be published in any proceedings, 
+however, viewgraphs and other materials will be reproduced for 
+seminar attendees.
+ABSTRACTS: Authors should submit a one page abstract and/or videotape to:
+     Robert Lipman
+     Naval Surface Warfare Center, Carderock Division
+     Code 2042
+     Bethesda, Maryland  20084-5000
+     VOICE (301) 227-3618;  FAX (301) 227-5753  
+     E-MAIL  lipman@oasys.dt.navy.mil
+Authors should include the type of presentation, their affiliations, 
+addresses, telephone and FAX numbers, and addresses.  Multi-author 
+papers should designate one point of contact.
+DEADLINES: The abstact submission deadline is April 30, 1993.  
+Notification of acceptance will be sent by May 14, 1993.  
+Materials for reproduction must be received by June 1, 1993.
+For further information, contact Robert Lipman at the above address.
+          PLEASE DISTRIBUTE AS WIDELY AS POSSIBLE, THANKS.
+Robert Lipman                     | Internet: lipman@oasys.dt.navy.mil
+David Taylor Model Basin - CDNSWC |       or: lip@ocean.dt.navy.mil
+Computational Signatures and      | Voicenet: (301) 227-3618
+   Structures Group, Code 2042    | Factsnet: (301) 227-5753
+Bethesda, Maryland  20084-5000    | Phishnet: stockings@long.legs
+The sixth sick shiek's sixth sheep's sick.
+From: weston@ucssun1.sdsu.edu (weston t)
+Newsgroups: comp.graphics
+Subject: graphical representation of vector-valued functions
+Date: 5 Apr 1993 20:22:28 GMT
+Organization: SDSU Computing Services
+Lines: 13
+Message-ID: <1pq4e4$afc@pandora.sdsu.edu>
+NNTP-Posting-Host: ucssun1.sdsu.edu
+gnuplot, etc. make it easy to plot real valued functions of 2 variables
+but I want to plot functions whose values are 2-vectors. I have been 
+doing this by plotting arrays of arrows (complete with arrowheads) but
+before going further, I thought I would ask whether someone has already
+done the work. Any pointers??
+thanx in advance
+Tom Weston                    | USENET: weston@ucssun1.sdsu.edu
+Department of Philosophy      | (619) 594-6218 (office)
+San Diego State Univ.         | (619) 575-7477 (home)
+San Diego, CA 92182-0303      | 
+From: rap@coconut.cis.ufl.edu (Ryan Porter)
+Newsgroups: comp.graphics
+Subject: Re: DMORPH
+Message-ID: <1pqlhnINN8k1@snoopy.cis.ufl.edu>
+Date: 6 Apr 93 01:14:31 GMT
+Article-I.D.: snoopy.1pqlhnINN8k1
+References: <1993Apr3.183303.6442@usl.edu>
+Organization: Univ. of Florida CIS Dept.
+Lines: 34
+NNTP-Posting-Host: coconut.cis.ufl.edu
+>Can someone please tell me where I can ftp DTA or DMORPH?
+DMorf (Dave's Morph, I think is what it means) and DTax (Dave's 
+TGA Assembler) are available in the MSDOS_UPLOADS directory
+on the wuarchive.
+They are arjed and bundled with their respective xmemory versions,
+dmorfx.exe and dtax.exe, you can also find a version of aaplay.exe
+there, with which you can view files you create with dta.exe or
+dtax.exe.
+I downloaded the whole bunch last week and have been morphing 
+away the afternoons since.  The programmes are all a bit buggy and
+definitely not-ready-to-spread-to-the-masses, but they are very
+well written. 
+The interface is frustrating at first, but it gets easy once you
+figure out the tricks.
+I have noticed that dmorfx will crash horribly if you try to morph
+without using the splines option.  Not sure why, since I don't have
+the source.  I think it was written for TP 6.0.
+If anyone else comes up with any other hints on getting the thing 
+to work right, tell me; it took me several hours the first time
+just to figure out that if I just used the durned splines then 
+it would work...
+>JNA
+>jna8182@usl.edu
+-Ryan
+rap@cis.ufl.edu
+Newsgroups: comp.human-factors,comp.graphics,comp.sys.hp
+From: kph2q@onyx.cs.Virginia.EDU (Kenneth Hinckley)
+Subject:   VOICE INPUT -- vendor information needed
+Message-ID: <C4yxLJ.MzB@murdoch.acc.Virginia.EDU>
+Sender: usenet@murdoch.acc.Virginia.EDU
+Reply-To: kph2q@onyx.cs.Virginia.EDU (Kenneth Hinckley)
+Organization: University of Virginia
+Date: Sun, 4 Apr 1993 16:53:43 GMT
+Lines: 27
+Hello,
+     I am looking to add voice input capability to a user interface I am
+developing on an HP730 (UNIX) workstation.  I would greatly appreciate 
+information anyone would care to offer about voice input systems that are 
+easily accessible from the UNIX environment. 
+     The names or adresses of applicable vendors, as well as any 
+experiences you have had with specific systems, would be very helpful.
+     Please respond via email; I will post a summary if there is 
+sufficient interest.
+Thanks,
+Ken
+P.S.  I have found several impressive systems for IBM PC's, but I would 
+like to avoid the hassle of purchasing and maintaining a separate PC if 
+at all possible.
+Ken Hinckley (kph2q@virginia.edu)
+University of Virginia 
+Neurosurgical Visualization Laboratory
+From: joth@ersys.edmonton.ab.ca (Joe Tham)
+Newsgroups: comp.graphics
+Subject: Where can I find SIPP?
+Message-ID: <yFXJ2B2w165w@ersys.edmonton.ab.ca>
+Date: Mon, 05 Apr 93 14:58:21 MDT
+Organization: Edmonton Remote Systems #2, Edmonton, AB, Canada
+Lines: 11
+        I recently got a file describing a library of rendering routines 
+called SIPP (SImple Polygon Processor).  Could anyone tell me where I can 
+FTP the source code and which is the newest version around?
+        Also, I've never used Renderman so I was wondering if Renderman 
+is like SIPP?  ie. a library of rendering routines which one uses to make 
+a program that creates the image...
+                                        Thanks,  Joe Tham
+--
+Joe Tham              joth@ersys.edmonton.ab.ca 
+From: andrey@cco.caltech.edu (Andre T. Yew)
+Newsgroups: comp.graphics
+Subject: Re: 16 million vs 65 thousand colors
+Date: 3 Apr 1993 19:51:06 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 28
+Message-ID: <1pkpraINNck9@gap.caltech.edu>
+NNTP-Posting-Host: punisher.caltech.edu
+d9hh@dtek.chalmers.se (Henrik Harmsen) writes:
+>1-4 bits per R/G/B gives horrible machbanding visible in almost any picture.
+>5 bits per R/G/B (32768, 65000 colors) gives visible machbanding
+>color-gradient picture has _almost_ no machbanding. This color-resolution is 
+>There _ARE_ situiations where you get visible mach-banding even in
+>a 24 bit card. If
+>you create a very smooth color gradient of dark-green-white-yellow
+>or something and turn
+>up the contrast on the monitor, you will probably see some mach-banding.
+    While I don't mean to damn Henrik's attempt to be helpful here,
+he's using a common misconception that should be corrected.
+    Mach banding will occur for any image.  It is not the color
+quantization you see when you don't have enough bits.  It is the
+human eye's response to transitions or edges between intensities.
+The result is that colors near the transistion look brighter on
+the brighter side and darker on the darker side.
+--Andre
+-- 
+             Andre Yew andrey@cco.caltech.edu (131.215.139.2)
+From: oehler@picard.cs.wisc.edu (Eric Oehler)
+Newsgroups: comp.graphics
+Subject: Translating TTTDDD to DXF or Swiv3D.
+Message-ID: <1993Apr6.020751.13389@cs.wisc.edu>
+Date: 6 Apr 93 02:07:51 GMT
+Article-I.D.: cs.1993Apr6.020751.13389
+Sender: news@cs.wisc.edu (The News)
+Distribution: usa
+Organization: University of Wisconsin, Madison -- Computer Sciences Dept.
+Lines: 8
+reply via email.
+Thanx.
+Eric Oehler
+oehler@picard.cs.wisc.edu
+From: phughes@Apple.COM (Peter Hughes)
+Subject: Searching for Public Domain Brain & Neuron Databases
+Message-ID: <80425@apple.apple.COM>
+Date: 5 Apr 93 23:23:22 GMT
+Followup-To: sci.med
+Organization: The Humbio Project
+Lines: 21
+        I am looking for publically accessible sources of data depicting brain
+and neuron functions.  Especially interesting would be volumetric data from
+brain scans, electromicographs, and so forth.  Please email me and let me know
+if you know of such.
+--------------------------------------------------------
+The HumBio Project is a CD-ROM-based curriculum tool for sixth-, seventh-, and
+eigth-graders, studying the function of the human brain and the effects of
+the effects of neurotransmitters on behavior.
+ity.
+levels.  We intend to use state-of-the-art visualization tools to render
+well as using already-completed visualizations to their best effect.
+From: phughes@Apple.COM (Peter Hughes)
+Subject: The HumBio Project-- call for data and visualizations
+Message-ID: <80426@apple.apple.COM>
+Date: 5 Apr 93 23:25:41 GMT
+Followup-To: sci.med
+Organization: Apple Computer Inc, Cupertino, CA
+Lines: 28
+The HumBio Project:  Call for Data and Visualizations
+The HumBio Project is a CD-ROM-based curriculum tool for sixth-, seventh-, and
+eigth-graders, studying the function of the human brain and the effects of
+the effects of neurotransmitters on behavior.
+levels.  We intend to use state-of-the-art visualization tools to render
+well as using already-completed visualizations to their best effect.
+into our schools, please e-mail phughes@igc.org.  Include your name,
+organization, and type and format of data you might be willing to provide.  We
+from you.
+Sincerely,
+Peter Hughes
+The HumBio Project
+(The HumBio Project is not in any way affiliated with Apple Computer or IGC.)
+Xref: cantaloupe.srv.cs.cmu.edu alt.3d:2141 comp.graphics:37921

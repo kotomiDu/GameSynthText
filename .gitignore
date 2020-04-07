@@ -1,0 +1,12 @@
+# Python Cache
+__pycache__/
+*.pyc
+
+# Visual Studio Code Cache
+.vscode
+
+# local test folder
+test/
+draft.md
+
+
