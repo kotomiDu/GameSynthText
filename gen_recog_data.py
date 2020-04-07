@@ -35,7 +35,7 @@ def start(data_root):
                     crop_img = im[int(ly):int(ry),int(lx):int(rx)]
                     recog_img_file = os.path.join(recog_img_path,image_prefix+'_'+str(idx).zfill(3)+'.png')
                     cv2.imwrite(recog_img_file,crop_img)
-                    recog_label_f.write("{} {}".format(recog_img_file, word))
+                    recog_label_f.write("{} {}\n".format(recog_img_file, word))
                     for ch in word:
                         chardic.add(ch)
                   
