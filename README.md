@@ -25,7 +25,12 @@ Click `open data path` button, Choose a folder and confirm,the image number unde
 <img src="./data/source/step2.png" height = "200"  />
 
 ### Step 3: Input the character property what you want.   
-Here is the example for character “WINNER WINNER CHICKEN DINNER”. Input `40` for the font size , choose color by clicking `open color palette` button, input `1` for the reusing number for each image, input ```1``` for the text number in each image, set the text content by clicking `import text source` button with a `txt` file or entering text directly in the box area.  
+Here is the example for character “WINNER WINNER CHICKEN DINNER”. 
+* Input `40` for the font size 
+* Choose color by clicking `open color palette` button
+* Input `1` for the reusing number for each image
+* Input ```1``` for the text number in each image
+* Set the text content by clicking `import text source` button with a `txt` file or entering text directly in the box area.  
 
 <img src="./data/source/step3.png" height = "200"  />
 
@@ -52,6 +57,7 @@ test3_000_000.png WINNER WINNER CHICKEN DINNER
 
 ## Visualization
 Here is the example after `Usage Steps`   
+
 <img src="./data/source/test3_vis.png" width = "400" height = "250" /> 
 
 
