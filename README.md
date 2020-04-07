@@ -16,8 +16,8 @@ This is an revised version from [SynthText](https://github.com/ankush-me/SynthTe
 
 ## Visualization
 
-<img src="./data/source/test2_vis.png" width = "400" height = "250"  align=left /> 
-<img src="./data/source/test3_vis.png" width = "400" height = "250"  align=left /> 
+
+<img src="./data/source/test3_vis.png" width = "400" height = "250" /> 
 
 
 # 中文
@@ -27,6 +27,10 @@ This is an revised version from [SynthText](https://github.com/ankush-me/SynthTe
 * 生成定制化文本数据，指定字体大小、颜色等
 * 增加UI交互，方便操作
 * 删除字体增强功能，没有对字体渲染阴影，边框等
+
+## 可视化
+<img src="./data/source/test2_vis.png" width = "400" height = "250"/> 
+
 
 
 
