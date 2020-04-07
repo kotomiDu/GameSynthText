@@ -36,13 +36,14 @@ Click the button `generate data` , `generate detection label` and `generate reco
 
 * detection label format
 ```
+222,230,601,230,601,271,222,271,WINNER WINNER CHICKEN DINNER
+
+#value oder
 (left,top) ---> (right,top)
                     |
                     |
                     v
 (left,buttom) <--- (right,bottom)
-
-222,230,601,230,601,271,222,271,WINNER WINNER CHICKEN DINNER
 ```
 * recognition label format
 ```
