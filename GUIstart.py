@@ -36,7 +36,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.fontlist = []
     def initial_setting(self):
         '''bg preparation'''
-        img = cv2.imread("data/source/bg.png")
+        img = cv2.imread("util/source/bg.png")
         h = self.label_sample.height()
         w = self.label_sample.width()
         resize_img = cv2.resize(img,(w,h))
@@ -45,7 +45,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.label_sample.setPixmap(pix)
 
         '''font style'''
-        img = cv2.imread("data/source/bg1.png")
+        img = cv2.imread("util/source/bg1.png")
         h = self.label_font.height()
         w = self.label_font.width()
         resize_img = cv2.resize(img,(w,h))
@@ -209,7 +209,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             return False
 
         if font_size in "default":
-            self.font_size = "-1"
+            self.font_size = -1
         else:
             self.font_size = eval(font_size)
 
@@ -221,7 +221,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         if self.textsource is None:
             textfile = open("data/textsource_temp.txt","w",encoding="utf-8")   
-            text_content_list = text_content.split(",")
+            text_content_list = text_content.split("\n")
             print(text_content_list,text_content)
             for text in text_content_list:
                 textfile.write(text+"\n")
@@ -280,6 +280,6 @@ if __name__ == '__main__':
     app.setApplicationName("Data Generator")
 
     window = MainWindow()
-    window.setWindowIcon(QIcon('./data/source/title.png'))
+    window.setWindowIcon(QIcon('./util/source/title.png'))
     window.setWindowTitle("SynthText")
     app.exec_()

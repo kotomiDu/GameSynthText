@@ -17,13 +17,13 @@ This is an revised version from [SynthText](https://github.com/ankush-me/SynthTe
 ### Step 1: Prepare background image  
 Click `open data path` button, Choose a folder and confirm,the image number under the chosen folder will be popped up as the picture shows   
  
-<img src="./data/source/step1.png"  height = "200" />
+<img src="./util/source/step1.png"  height = "200" />
 
 ### Step 2: Select font style by two ways
  1. The first way is to select from the `combobox` which is provided by current tool;
  2. The second way is to click `add font` button and choose the font file  what users want.  
  The chosen font will be listed in `fontlist`. You can clear all the fonts by clicking `clear` button. Deleting one specific font is not supported so far.
-<img src="./data/source/step2.png" height = "200"  />
+<img src="./util/source/step2.png" height = "200"  />
 
 ### Step 3: Input the character property what you want.   
 Here is the example for character “WINNER WINNER CHICKEN DINNER”. 
@@ -33,12 +33,12 @@ Here is the example for character “WINNER WINNER CHICKEN DINNER”.
 * Input ```1``` for the text number in each image
 * Set the text content by clicking `import text source` button with a `txt` file or entering text directly in the box area.  
 
-<img src="./data/source/step3.png" height = "200"  />
+<img src="./util/source/step3.png" height = "200"  />
 
 ### Step 4: Generate data 
 Click the button `generate data` , `generate detection label` and `generate recognition label` step by step, it will show the messages as the pictures show.  
 
-<img src="./data/source/step4.png"  height = "200"  /> 
+<img src="./util/source/step4.png"  height = "200"  /> 
 
 * detection label format
 ```
@@ -59,7 +59,7 @@ test3_000_000.png WINNER WINNER CHICKEN DINNER
 ## Visualization
 Here is the example after `Usage Steps`   
 
-<img src="./data/source/test3_vis.png" width = "400" height = "250" /> 
+<img src="./util/source/test3_vis.png" width = "400" height = "250" /> 
 
 
 # 中文
@@ -71,7 +71,7 @@ Here is the example after `Usage Steps`
 * 删除字体增强功能，没有对字体渲染阴影，边框等
 
 ## 可视化
-<img src="./data/source/test2_vis.png" width = "400" height = "250"/> 
+<img src="./util/source/test2_vis.png" width = "400" height = "250"/> 
 
 
 

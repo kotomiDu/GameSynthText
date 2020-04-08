@@ -39,20 +39,20 @@ class Ui_MainWindow(object):
         self.tab_2 = QtWidgets.QWidget()
         self.tab_2.setObjectName("tab_2")
         self.pushButton_font = QtWidgets.QPushButton(self.tab_2)
-        self.pushButton_font.setGeometry(QtCore.QRect(20, 40, 112, 34))
+        self.pushButton_font.setGeometry(QtCore.QRect(200, 40, 112, 34))
         self.pushButton_font.setObjectName("pushButton_font")
         self.comboBox_font = QtWidgets.QComboBox(self.tab_2)
-        self.comboBox_font.setGeometry(QtCore.QRect(140, 40, 161, 31))
+        self.comboBox_font.setGeometry(QtCore.QRect(20, 40, 161, 31))
         self.comboBox_font.setCurrentText("")
         self.comboBox_font.setObjectName("comboBox_font")
         self.widget = QtWidgets.QWidget(self.tab_2)
         self.widget.setGeometry(QtCore.QRect(20, 110, 711, 401))
         self.widget.setObjectName("widget")
         self.pushButton_addfont = QtWidgets.QPushButton(self.tab_2)
-        self.pushButton_addfont.setGeometry(QtCore.QRect(330, 40, 112, 34))
+        self.pushButton_addfont.setGeometry(QtCore.QRect(620, 40, 112, 34))
         self.pushButton_addfont.setObjectName("pushButton_addfont")
         self.lineEdit_addfont = QtWidgets.QLineEdit(self.tab_2)
-        self.lineEdit_addfont.setGeometry(QtCore.QRect(460, 40, 231, 25))
+        self.lineEdit_addfont.setGeometry(QtCore.QRect(380, 40, 231, 31))
         self.lineEdit_addfont.setObjectName("lineEdit_addfont")
         self.textEdit_fontlist = QtWidgets.QTextEdit(self.tab_2)
         self.textEdit_fontlist.setGeometry(QtCore.QRect(760, 130, 201, 371))
@@ -65,8 +65,14 @@ class Ui_MainWindow(object):
         self.label_6.setGeometry(QtCore.QRect(760, 100, 68, 19))
         self.label_6.setObjectName("label_6")
         self.pushBotton_clearfont = QtWidgets.QPushButton(self.tab_2)
-        self.pushBotton_clearfont.setGeometry(QtCore.QRect(750, 40, 112, 34))
+        self.pushBotton_clearfont.setGeometry(QtCore.QRect(810, 30, 112, 34))
         self.pushBotton_clearfont.setObjectName("pushBotton_clearfont")
+        self.label_7 = QtWidgets.QLabel(self.tab_2)
+        self.label_7.setGeometry(QtCore.QRect(30, 20, 47, 13))
+        self.label_7.setObjectName("label_7")
+        self.label_8 = QtWidgets.QLabel(self.tab_2)
+        self.label_8.setGeometry(QtCore.QRect(390, 20, 47, 13))
+        self.label_8.setObjectName("label_8")
         self.tabWidget.addTab(self.tab_2, "")
         self.tab_3 = QtWidgets.QWidget()
         self.tab_3.setObjectName("tab_3")
@@ -122,7 +128,7 @@ class Ui_MainWindow(object):
         self.pushButton_recoglabel.setObjectName("pushButton_recoglabel")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1048, 31))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1048, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -130,7 +136,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(2)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -139,11 +145,13 @@ class Ui_MainWindow(object):
         self.pushButton_path.setText(_translate("MainWindow", "open data path"))
         self.label_sample.setText(_translate("MainWindow", "Sample Image"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "background preparation"))
-        self.pushButton_font.setText(_translate("MainWindow", "choose"))
+        self.pushButton_font.setText(_translate("MainWindow", "add font"))
         self.pushButton_addfont.setText(_translate("MainWindow", "add font"))
         self.label_font.setText(_translate("MainWindow", "Sample Font"))
         self.label_6.setText(_translate("MainWindow", "font list"))
         self.pushBotton_clearfont.setText(_translate("MainWindow", "clear"))
+        self.label_7.setText(_translate("MainWindow", "Way 1"))
+        self.label_8.setText(_translate("MainWindow", "Way 2"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "generate font style"))
         self.label.setText(_translate("MainWindow", "font size"))
         self.label_2.setText(_translate("MainWindow", "font color"))
@@ -154,7 +162,12 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic;\">please enter text with&quot; ;&quot; split , e.g. &quot;test1,test2,test3&quot; ; or you can import an existing text source</span></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic;\">please enter text in each line, e.g.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; text-decoration: underline;\">test1</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; text-decoration: underline;\">test2</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; text-decoration: underline;\">test3</span><span style=\" font-style:italic;\"> </span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-style:italic;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic;\">Or you can import an existing text source</span></p></body></html>"))
         self.pushButton_textsource.setText(_translate("MainWindow", "import text source"))
         self.pushButton_colordialog.setText(_translate("MainWindow", "open color palette"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("MainWindow", "property setting"))
