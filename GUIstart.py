@@ -209,7 +209,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             return False
 
         if font_size in "default":
-            self.font_size = "-1"
+            self.font_size = -1
         else:
             self.font_size = eval(font_size)
 
