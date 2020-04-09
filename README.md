@@ -97,7 +97,7 @@ Here is the example after `Usage Steps`
 * text number in each image：每张图片中的文本数量
 * text content：文本内容
 
-* 输入 `35` 在 `font size`输入框中 
+* 输入 `40` 在 `font size`输入框中 
 * 点击按钮 `open color palette` 来选择颜文本色
 * 输入`1` 在 `reusing number for each image`输入框中
 * 输入`1` 在`for the text number in each image`输入框中
