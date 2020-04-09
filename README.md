@@ -80,13 +80,13 @@ Here is the example after `Usage Steps`
 ### 步骤一: 准备背景图片 
 按 `open data path` 按键, 选择一个文件并且确定，所选文件夹下的图像编号将作为图片弹出   
  
-<img src="./data/source/step1.png"  height = "200" />
+<img src="./util/source/step1.png"  height = "200" />
 
 ### 步骤二: 选择格式的了两种方法
  1. 第一种方法是在复选框种选择想要的格式，选完后点击`comfirm`按钮确认;
  2. 第二种方法是点击`add font`按钮，选择想要的格式。
  被选择的格式会添加在右边的列表中，可以用`clear`按钮来清除所有，暂时不支持清楚单个格式
-<img src="./data/source/step2.png" height = "200"  />
+<img src="./util/source/step2.png" height = "200"  />
 
 ### 步骤三: 输入想要的文本
 这儿有个文本案例提供参考　文本内容：“WINNER WINNER CHICKEN DINNER”
@@ -103,12 +103,12 @@ Here is the example after `Usage Steps`
 * 输入`1` 在`for the text number in each image`输入框中
 * 点击按钮 `import text source` 来设置文本内容，可以选择`txt`文件或者根据提示自定义文本内容在输入框中 
 
-<img src="./data/source/step3.png" height = "200"  />
+<img src="./util/source/step3.png" height = "200"  />
 
 ### 步骤四: 生成数据 
 依次按下按钮 `generate data` , `generate detection label` 和　`generate recognition label` , 按完后会弹窗显示生成的本文信息 
 
-<img src="./data/source/step4.png"  height = "200"  /> 
+<img src="./util/source/step4.png"  height = "200"  /> 
 
 * 文本检测标签的格式
 ```
