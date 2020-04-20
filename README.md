@@ -6,6 +6,8 @@ This is an revised version from [SynthText](https://github.com/ankush-me/SynthTe
 * Add UI interface , which is more easier for fresh user
 * Delete character augmentation, e.g. no border, no shadow 
 
+## To-do list
++ [ ] make the text placement geometry-aware, e.g. using depth and segmentation
 
 ## Enviroment
 * python3, Windows,Ubuntu
