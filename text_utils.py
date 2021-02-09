@@ -147,7 +147,7 @@ class RenderFont(object):
         surf = pygame.Surface(fsize, pygame.locals.SRCALPHA, 32)
 
         bbs = []
-        space = font.get_rect('O')
+        space = font.get_rect('1')
         x, y = 0, 0
         for l in lines:
             x = 0 # carriage-return
@@ -161,7 +161,7 @@ class RenderFont(object):
                         x = x-2
                     # render the character
                     ch_bounds = font.render_to(surf, (x,y), ch)
-                    ch_bounds.x = x + ch_bounds.x
+                    #ch_bounds.x = x + ch_bounds.x
                     ch_bounds.y = y - ch_bounds.y
                     if ch == "1":
                         x += ch_bounds.width + 3
@@ -312,7 +312,6 @@ class RenderFont(object):
             font.size = f_h # set the font-size
             # compute the max-number of lines/chars-per-line:
             nline,nchar = self.get_nline_nchar(mask.shape[:2],f_h,f_h*f_asp)
-            
             #print "  > nline = %d, nchar = %d"%(nline, nchar)
 
             assert nline >= 1 and nchar >= self.min_nchar
@@ -321,7 +320,7 @@ class RenderFont(object):
             #text_type = sample_weighted(self.p_text)
             text_type="LINE"
             text = self.text_source.sample(nline,nchar,text_type)
-               
+             
             #print 'before the if judge',text
             if len(text)==0:
                 print(colorize(Color.GREEN, ' didn\'t pass because of len(text)==0'))
@@ -335,10 +334,10 @@ class RenderFont(object):
             
             txt_arr,txt,bb = self.render_curved(font, text)
             bb = self.bb_xywh2coords(bb)
-
             # make sure that the text-array is not bigger than mask array:
             if np.any(np.r_[txt_arr.shape[:2]] > np.r_[mask.shape[:2]]):
-                #warn("text-array is bigger than mask")       
+                #warn("text-array is bigger than mask")
+                print("text shape:{}; mask shape:{}".format(np.r_[txt_arr.shape[:2]],np.r_[mask.shape[:2]]))
                 print(colorize(Color.GREEN, 'fail in mask array size'))
                 continue
             #print colorize(Color.GREEN, 'pass in mask array size')
@@ -568,10 +567,14 @@ class TextSource(object):
             nline = len(lines)
             for i in range(nline):
                 words = lines[i].split()
+                lines[i] = ' '.join(words)
+                # trim the line
+                '''
                 dw = len(words)-nword[i]
                 if dw > 0:
                     first_word_index = random.choice(range(dw+1))
                     lines[i] = ' '.join(words[first_word_index:first_word_index+nword[i]])
+                '''
                 '''
                 while len(lines[i]) > nchar_max: #chop-off characters from end:
                     if not np.any([ch.isspace() for ch in lines[i]]):
@@ -612,11 +615,11 @@ class TextSource(object):
         #while nline > nline_max:
         #    nline = np.random.choice([1,2,3], p=self.p_line_nline)
         nline = 1
-        # get number of words:
+        # get number of words: it will shorten the content 22313456-> 3134
         nword = [self.p_line_nword[2]*sstat.beta.rvs(a=self.p_line_nword[0], b=self.p_line_nword[1])
                  for _ in range(nline)]
         nword = [max(1,int(np.ceil(n))) for n in nword]
-
+        
         lines = self.get_lines(nline, nword, nchar_max, f=0.35)
         #print('sample_line_output',lines)
         if lines is not None:
